@@ -19,9 +19,20 @@ p#description{
 }
 
 form{
-    text-align: center;
     padding: 10px;
     display: block;
+}
+
+input#name-label{
+    margin-right: 50px;
+}
+
+#number-label{
+    margin-right: 170px;
+}
+
+#radio{
+    display: inline;
 }
 
 
