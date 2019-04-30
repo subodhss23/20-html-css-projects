@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section>
+            <main>
+                <h1 id="title">Survery Form</h1>
+                <p id="description">This is a survey form.</p>
+                <form id="survey form">
+                    Name :<input id="name-label" type="text" placeholder="enter your name"><br>
+                    Email Address: <input id="email-label" type="email" name="email" required placeholder="Enter a valid email address">
+                    Age: <input id="number-label" type="number" name="date" min="18" max="99" placeholder="enter date" required pattern="number">
+                    <button>Submit</button><br>
+
+                    <label>Which option best describes your current role?</label>
+                    <select id="dropdown">
+                        <option value = "1">Student</option>
+                        <option value = "2">Full time employed</option>
+                        <option value = "3">Part time employed</option>
+                        <option value = "4"> Unemployeed</option>
+                    </select>
+                    <br>
+
+                    <label>How likely is that you would recommend this website to your frined?</label><br>
+                        <input type="radio" name="menu" value="definitely"> Definitely <br>
+                        <input type="radio" name="menu" value="maybe"> Maybe <br>
+                        <input type="radio" name="menu" value="value">Not Sure <br>
+
+                        <label>What do you like most in this webpage: </label>
+                        <select id="dropdown">
+                            <option value = "1">Interactive challenege</option>
+                            <option value = "2">Problems and solutions</option>
+                            <option value = "3">Community</option>
+                            <option value = "4">Goes on your own pace</option>
+                        </select>
+                            <br>
+
+                        <label>Please feel free to write comments and suggestion so that we can make this page better.</label>
+                        <input type="text" placeholder="Additional comment">
+                        <br>
+
+                        <input type="submit" name="button">
+                </form>
+            </main>
+        </section>
+    </body>
+</html>
